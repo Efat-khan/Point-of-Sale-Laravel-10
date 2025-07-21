@@ -1,0 +1,103 @@
+/* Haider Custom CSS */
+
+h4.dashboard-logo {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+img.report-logo {
+    width: 250px;
+    /* height: 40px; */
+}
+
+.auth-body-bg .bg-overlay {
+    background: rgba(243, 47, 83, 0.12);
+}
+
+/* All Commission text box */
+.input-group-text {
+    padding: 0 0;
+}
+
+/* To convert a long text in to a sort text */
+.long-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Set the number of lines you want to display before truncating */
+    -webkit-line-clamp: 2;
+}
+
+/* Select2 CSS CHANGE : product_add.blade.php */
+.select2-container .select2-selection--multiple {
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    min-height: 38px;
+    padding: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.select2-container .select2-selection--multiple .select2-selection__choice {
+    background-color: #007bff;
+    border: 1px solid #0056b3;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 3px;
+    font-size: 14px;
+    /* display: flex; */
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+/* Styling the remove button */
+.select2-container .select2-selection--multiple .select2-selection__choice__remove {
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: auto;
+    /* Pushes the cross to the right */
+    position: relative;
+}
+
+/* Hover effect */
+.select2-container .select2-selection--multiple .select2-selection__choice__remove:hover {
+    background-color: darkred;
+}
+
+
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 2px;
+    margin-bottom: 0px !important;
+}
+
+/* Styling the dropdown options */
+.select2-container--default .select2-results__option {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.select2-container--default .select2-results__option--highlighted {
+    background-color: #007bff;
+    color: white;
+}
+
+.select2-container--default .select2-results__option[aria-selected="true"] {
+    background-color: #0056b3;
+    color: white;
+}

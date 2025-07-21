@@ -1,0 +1,16 @@
+:root {
+  --body-font: 'Roboto', sans-serif;
+}
+
+/* Bootstrap Override */
+body {
+  --bs-font-sans-serif: 'Roboto', sans-serif;
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 2;
+  --bs-body-color: #383735;
+  --bs-primary: #ffc400;
+  --bs-primary-rgb: 244, 187, 0;
+  --bs-border-color: #eeeeee;
+}
